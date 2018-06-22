@@ -1,0 +1,375 @@
+body
+{
+  font-family: sans-serif;
+}
+.home img
+{
+ height: auto;
+ width: 100%;
+  }
+.hrstyle {
+  border-top: 1px dotted #8c8b8b;
+  border-bottom: 1px dotted #fff;
+ color: #f4d699;
+ background-color: #f4d699;
+}
+.navbar
+{
+ color: #f4d699; /*logo color*/
+}
+.icon-bar
+{
+  background-color: #f4d699; 
+}
+.navbar-brand
+{
+
+  	align-content: center;
+}
+/* ----------myCarousel --------------*/
+.item
+{
+  box-shadow: 4px 4px 4px  #000;
+  border-style: ridge;
+  max-height: 500px;
+  width: auto;
+}
+#myCarousel img
+{
+  height: 100%;
+  width: auto;
+}
+
+/* ----------navigation bar --------------*/
+.nav li a
+{
+ color: #f4d699;	
+}
+.nav li a i
+{
+font-size: 20px;
+text-align: center;
+  }
+.nav li a:hover
+{
+ color: #fff;
+ background-color: transparent;
+}
+
+.nav li a i:hover
+{
+  color: #fff;
+}
+.bkgrnd, .navbar {
+    background: #000; /* For browsers that do not support gradients */
+    background: linear-gradient(to right, #26242a , #222222); /* Standard syntax (must be last) */
+}
+.home-glyphicon
+{
+	color: #fff;
+}
+ .mainlogo
+  {
+  	height: 200%;
+  	width: auto;
+  	position: relative;
+  }
+  body {
+      position: relative; 
+  }
+
+
+
+
+  /*========================= home section ================= */
+
+  #home {padding-top:50px;padding-bottom:50px;background-color: #f1ebe0;}
+
+  /*========================= availability section ================= */
+  #availability {padding-top:50px;color: #fff; background-color: #000;}
+  .panel
+  {
+    align-content: center;
+    text-align: center;
+    background-color: #fff;
+    color: #222;
+    border-color: #f4d699; 
+  }
+  .panel-body
+  {
+    background-color: #222;
+    color: #f4d699;
+  }
+  .panel-heading
+  {
+
+    font-family: sans-serif;
+    font-weight: 500;
+    text-align: center;
+    color: #222;
+    border-color: #f4d699; 
+  }
+.availtxt
+{
+  width: 80%;
+  border-color: #f4d699;
+  background-color: transparent;
+  border-radius: 7px;
+  height: 40px;
+}
+.availtxt2
+{
+  width: 40%;
+  color: #fff;
+  border-color: #f4d699;
+  background-color: transparent;
+  border-radius: 7px;
+  height: 40px;
+}
+.chkbtn
+{
+  width: 100%;
+  height: 40px;
+  box-shadow: 1px 2px 1px #000;
+  background-color: #fff;
+  color: #222;
+  border-radius: 7px;
+}
+.tagline
+{
+  
+  color: #fff;
+  background-color: #222;
+}
+.tagline p
+{
+  padding-top: 20px;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+}
+  /*========================= packages  section ================= */
+  #packages 
+  {
+    width: 100%;
+    height: auto;
+    background-image: url('images/slide22.jpg');
+    padding-top:50px;
+    color: #fff;  
+    font-family: sans-serif;
+    font-size: 1.5em;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: -0.34px;
+  }
+#packages h3,#packages small
+{
+  color: #fff;
+  font-weight: 800;
+}
+.pbtn
+{
+  background-color: #222;
+  font-size: 15px;
+  font-weight: 200;
+  color: #fff;
+  border-color: #f4d699;
+  width: 220px;
+  height: 80px;
+  border-radius: 7px;
+}
+.pbtn:hover
+{
+  box-shadow: 1px 2px 1px #000;
+  background-color: #fff;
+  color: #222;
+}
+
+  /*========================= services section ================= */
+
+  #services h2
+  {
+    font-weight: 1000;
+    font-style: normal;
+    letter-spacing: -0.34px;
+    color: #43464c;
+  }
+  #services i
+  {
+    
+    border-bottom-style: groove;
+  }
+  #services 
+  {
+    padding-top:50px;padding-bottom:50px; color: #43464c; background-color: #fff;
+     font-family: sans-serif;
+     font-size: 2em;
+    font-weight: 700;
+    letter-spacing: -0.34px;
+    text-align: center;
+  }
+
+  /*========================= contact-us section ================= */
+  #contact-us {
+    padding-top:50px;
+    color: #fff;
+    background-image: url('images/slide0.jpeg');
+  }
+  #contact-us input {
+    color: #fff;
+  }
+
+
+  /*========================= gallary section ================= */
+  #gallary {padding-top:50px;color: #43464c; background-color: #fff;}
+  #lightbox .modal-content {
+    display: inline-block;
+    text-align: center;   
+}
+
+#lightbox .close {
+    opacity: 1;
+    color: rgb(255, 255, 255);
+    background-color: rgb(25, 25, 25);
+    padding: 5px 8px;
+    border-radius: 30px;
+    border: 2px solid rgb(255, 255, 255);
+    position: absolute;
+    top: -15px;
+    right: -55px;
+    
+    z-index:1032;
+}}
+
+  /*========================= social section ================= */
+  #social 
+  {
+    text-align: center; padding-top:50px;color: #fff; background-color: #222222;
+  }
+  #social p
+  {
+    text-align: center; padding-top:50px;color: #f4d699; background-color: #222222;
+  }
+  /*========================= social Icons ================= */
+
+/* footer social icons */
+ul.social-network {
+  list-style: none;
+  display: inline;
+}
+ul.social-network li {
+  display: inline;
+  margin: 0 5px;
+}
+
+
+/* footer social icons */
+.social-network a.icoFacebook:hover {
+  background-color:#3B5998;
+}
+.social-network a.icoTwitter:hover {
+  background-color:#33ccff;
+}
+.social-network a.icoGoogle:hover {
+  background-color:#BD3518;
+}
+.social-network a.icoVimeo:hover {
+  background-color:#0590B8;
+}
+.social-network a.icoLinkedin:hover {
+  background-color:#007bb7;
+}
+
+
+.social-circle li a {
+  display:inline-block;
+  position:relative;
+  margin:0 auto 0 auto;
+  border-radius:50%;
+  text-align:center;
+  width: 50px;
+  height: 50px;
+  font-size:20px;
+}
+.social-circle li i {
+ 
+  line-height:50px;
+  text-align: center;
+}
+
+.social-circle li a:hover i, .triggeredHover {
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -ms-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.social-circle i {
+  color: #fff;
+}
+
+
+/* --------------------------------------------contact us --------------------------------------*/
+
+section#contact {
+    background-color: #222222;
+    background: rgba(22,22,22, 0.7);
+    background-position: center;
+    color: white;
+    padding-bottom: 50px; 
+}
+
+section#contact .form-group input,
+section#contact .form-group textarea {
+    padding: 10px;  
+}
+section#contact .form-group input.form-control {
+    height: auto;
+}
+.form-control
+{
+  background: rgba(0,0,0, 0.7);
+  border-color:  #f4d699;
+  text-align: center;
+}
+.btn
+{
+  box-shadow: 1px 2px 1px #fff;
+  background-color: #222222;
+  color: #f4d699;
+}
+.btn:hover
+{
+  box-shadow: 1px 2px 1px #000;
+  background-color: #fff;
+  color: #222;
+}
+
+.about_our_company{
+    text-align: center;
+}
+.about_our_company h1{
+    font-size: 25px;
+}
+/*------------------address  --------------------*/
+.address
+{
+  margin-top: 20px;
+  background-color: #f1ebe0;
+  color: #222;
+   font-size: 17px;
+}
+/*------------------ gallary --------------------*/
+#img_div img
+{
+  height: auto;
+  width: 100%;
+}
+#gallary h2
+  {
+    font-weight: 1000;
+    font-style: normal;
+    letter-spacing: -0.34px;
+    color:#222;
+    text-shadow: 1px 2px 1px #f4d699;
+  }
+
